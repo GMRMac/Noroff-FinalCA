@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+    background-color: #393939;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  margin-bottom: 50px;
+    margin-top: 20px;
+  font-family: "montserrat";
+  color: #fff;
+  font-weight: 400;
+}

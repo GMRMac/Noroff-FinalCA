@@ -1,0 +1,61 @@
+.card {
+  box-shadow: 0px 3px 16px #191919;
+  background-color: #f9f9f9;
+  margin-bottom: 30px;
+  transition: all 0.4s;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.card:hover {
+  box-shadow: 0 0 0 #191919;
+}
+.card-title.h5 {
+  font-size: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "montserrat";
+  font-weight: 600;
+  color: #191919;
+}
+.card-button {
+  background-color: #191919;
+  font-family: "montserrat";
+  border: 0;
+  border-radius: 2px;
+}
+.card-button:hover {
+  background-color: rgba(25,25,25,0.788);
+}
+.search {
+  margin: 0 0 50px 0;
+}
+.search input {
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+  font-size: 20px;
+  color: #fff;
+  transition: 0.25s;
+}
+.search input::placeholder {
+  color: #999;
+}
+.search input:focus {
+  transition: 0.25s;
+  background-color: #fff;
+  color: #191919;
+}
+.clear-search {
+  margin-bottom: 30px;
+}
+.clear-search__button {
+  margin-left: 10px;
+}
+.spinner-border {
+  margin-top: 10px;
+  border: #fff solid 2px;
+  border-right: transparent;
+}

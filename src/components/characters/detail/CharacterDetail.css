@@ -1,0 +1,20 @@
+.list-group-item {
+  font-family: 'Merriweather', serif;
+  font-weight: 500;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-top: solid 1px #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.list-group-item:nth-child(1) {
+  border: none;
+}
+.list-group-item b {
+  font-family: "montserrat";
+  font-weight: 600;
+}
+img {
+  border-radius: 12px;
+}

@@ -1,0 +1,56 @@
+.card
+    box-shadow 0px 3px 16px #191919
+    background-color #f9f9f9
+    margin-bottom 30px
+    transition all 0.4s
+    border 1px solid white
+    border-radius 2px
+    overflow hidden
+    &:hover
+        box-shadow 0 0 0 #191919
+    &-title.h5
+        font-size 1em
+        white-space nowrap
+        overflow hidden
+        text-overflow ellipsis
+        font-family "montserrat"
+        font-weight 600
+        color #191919
+    &-button
+        background-color #191919
+        font-family "montserrat"
+        border 0
+        border-radius 2px
+        &:hover
+            background-color #191919c9
+        
+.search
+    margin 0 0 50px 0
+    & input
+        border-radius 0
+        border none
+        background-color transparent
+        border-bottom 2px solid white
+        font-size 20px
+        color white
+        transition 0.25s
+        &::placeholder
+            color #999999
+        &:focus
+            transition 0.25s
+            background-color white
+            color #191919
+        
+    
+.clear
+    &-search
+        margin-bottom 30px
+        &__button
+            margin-left 10px
+    
+.spinner
+    &-border
+        margin-top 10px
+        border white solid 2px
+        border-right transparent
+        

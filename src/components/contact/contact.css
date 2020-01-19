@@ -1,0 +1,38 @@
+.form__label {
+  color: #f9f9f9;
+  font-family: "montserrat";
+  font-size: 20px;
+}
+.form__input {
+  font-family: "montserrat";
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+  font-size: 18px;
+  color: #fff;
+  transition: 0.25s;
+}
+.form__input::placeholder {
+  color: #999;
+}
+.form__input:focus {
+  transition: 0.25s;
+  background-color: #fff;
+  color: #191919;
+}
+.form__button {
+  background-color: #f9f9f9;
+  color: #191919;
+  font-family: "montserrat";
+  border: 0;
+  margin-top: 25px;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+}
+.form__button:hover {
+  background-color: rgba(249,249,249,0.788);
+  color: #191919;
+}

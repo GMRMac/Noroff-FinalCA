@@ -1,0 +1,15 @@
+.card__button--toggle {
+  font-family: "montserrat";
+  font-weight: 600;
+  color: #191919;
+}
+.card__button--toggle:link {
+  color: #191919;
+}
+.card__button--toggle:hover {
+  color: #191919;
+}
+.card-body p {
+  color: #191919;
+  font-family: "merriweather";
+}

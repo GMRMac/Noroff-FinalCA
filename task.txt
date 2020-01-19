@@ -1,0 +1,58 @@
+Javascript Frameworks - Course Assignment
+Goal
+In this course assignment you are going to re-create your JavaScript 1 Course Assignment. You will need to choose one of the three frameworks (React, Angular or Vue) which you learned in this course and use it in the assignment.
+Brief
+In this course assignment we will be using the assignment which we created in the JavaScript 1 course. Please ensure that this is a single page application. For this assignment you are can choose one of the three Frameworks in the list below:
+Vue.js
+React.js
+Angular.js
+Level 1 Process
+
+Styling
+
+You will need to restyle this application. Please use a CSS Pre-processor of your choice but ensure that your styles are in accordance with BEM standards. The colors of the entire website should change and you should use design principles which you have learnt thus far. You will be marked on this.
+
+Login Page
+
+You will be required to create a login; this login will save a username and password to your local storage. It should have a form field for a username and password and a submit button. If the username is incorrect, please display an error message like we did throughout this course. If the password is incorrect, please display an error message. If the password and username is correct direct them to the home page.
+
+Homepage
+
+Once you have logged in successfully, you will be redirected to the homepage of this application. You will need to make an API call to: https://api.magicthegathering.io/v1/cards. If you have issues, use the conversion URLS, which you saw in the Vue.js and Angular modules.
+
+On the home page there is functionality which allows the user to search. Please ensure that this search works.
+If the view more button is clicked, you need to be taken to a specific page for that card. Remember to pass the ID in as a parameter in the URL.The framework which you chose should handle this for you.
+
+
+About Page
+
+Please create the dropdown on the about us page. It should mimic the images below.
+Closed Tab
+
+Open Tab
+
+Contact Us page
+
+Please create a contact form. The name and last name textboxes shouldn’t be empty. The email textbox should have a valid email address inside it. The number format should be as follows
+:
+xxx xxx xxxx
+xxx-xxx-xxxx
+xxx.xxx.xxxx
+
+Display error messages for each of the fields, if there are any errors on them. If the value of that textbox is valid, hide the error message. All this should happen after a user clicks the submit button.
+
+Menu
+
+There should be a menu which links to the home, about and contact us pages respectively.
+
+
+Marking Criteria
+The candidate has knowledge of industry-relevant JavaScript frameworks, such as Angular and React
+The candidate can plan and carry out digital solutions developed with JavaScript frameworks
+The candidate can find and apply relevant JavaScript frameworks best suited for solving specific assignments
+Submission
+Please create a new Git Hub repository called Noroff FinalCA. You will need to commit regularly to this repository.
+Create a readme.md file which gives clear instructions on how to run the project as you did with previous projects. Remember your teacher will need to run this application on their machine. If there are any special instructions add it to the readme file.
+Please submit the link to your repo.
+Time
+40 hours
